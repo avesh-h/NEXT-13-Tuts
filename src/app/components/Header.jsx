@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 
-
 const Header = () => {
   return (
     <header className="header" style={{ borderBottom: "2px solid red" }}>
@@ -31,6 +30,9 @@ const Header = () => {
             </li>
             <li>
               <Link href="/code/repos">code</Link>
+            </li>
+            <li>
+              <Link href="/courses">courses</Link>
             </li>
           </ul>
         </div>
